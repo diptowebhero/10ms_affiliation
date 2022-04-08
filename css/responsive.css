@@ -1,0 +1,99 @@
+/* media query */
+@media (max-width: 1025px) {
+  .hero-text h1 {
+    padding-right: 17px;
+  }
+  .qna_container{
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .hero-area {
+    flex-direction: column-reverse;
+    gap: 50px;
+    height: 100%;
+    text-align: center;
+  }
+  .hero-left-area {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .hero-text h1 {
+    padding-right: 0;
+    font-size: 47px;
+    line-height: 56px;
+  }
+  .hero-text p {
+    padding: 20px 0px;
+  }
+  .affiliate-item {
+    flex-direction: column;
+    padding: 46px;
+  }
+  .people {
+    margin: 20px 0px;
+  }
+  .program_card_container {
+    flex-wrap: wrap;
+  }
+  .program_title p {
+    padding: 0px 22px;
+  }
+  .affiliate-program-main {
+    flex-direction: column-reverse;
+  }
+  .tutorial_section {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .affiliate-program-left {
+    text-align: center;
+    width: 100%;
+  }
+  .affiliate-program-video-area {
+    padding: 30px 0px;
+  }
+  .affiliate-program-left p {
+    padding: 20px 0px;
+  }
+  .affiliate-program-right .video iframe {
+    width: auto;
+  }
+  .shape,
+  .shape-top-left {
+    display: none;
+  }
+  .affiliate_stories {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+@media (max-width: 625px) {
+  .toggle-menu-btn {
+    display: block !important;
+  }
+  .nav-right {
+    position: absolute;
+    top: 80px;
+    background: rgba(39, 43, 53, 1);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    left: 0;
+    transform: translateY(-500px);
+    transition: 0.3s;
+  }
+  #toggle-menu:checked ~ .nav-right {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 376px) {
+  .text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .btn-logIn {
+    margin: 10px 0px !important;
+  }
+}
