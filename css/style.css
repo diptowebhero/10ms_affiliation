@@ -102,6 +102,10 @@ p {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  transition: 0.5s;
+}
+.btn-hero:hover {
+  background: rgb(28 110 73);
 }
 .hero-right-area img {
   width: 100%;
@@ -389,14 +393,15 @@ p {
 .accordion .content-box {
   position: relative;
   margin: 10px 20px;
+  background: white;
+  border-radius: 5px;
 }
 .accordion .content-box .label {
-  background: white;
   position: relative;
   width: 640px;
   height: 70px;
   padding: 10px;
-  border-radius: 5px;
+
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -419,14 +424,13 @@ p {
 
 .accordion .content-box .content {
   position: relative;
-  background: white;
+
   height: 0px;
   display: flex;
   align-items: center;
   overflow: hidden;
   overflow-y: auto;
   transition: 0.5s;
-  border-radius: 5px;
 }
 .accordion .content-box.active .content {
   height: 70px;
@@ -566,6 +570,7 @@ span {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  z-index: 200;
 }
 .news-letter_main::before {
   content: url("../images/newsletters.png");
@@ -574,6 +579,26 @@ span {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.news-letter_main .shape_element .shapes {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  max-height: 9vw;
+  max-width: 9vw;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.news-letter_main .shape_element .shape-bottom-left {
+  bottom: 7px;
+  left: 0;
+  background: rgba(255, 40, 79, 1);
+  height: 30vw;
+  max-height: 12vw;
+  width: 30vw;
+  max-width: 12vw;
 }
 .news-letter_main h2 {
   max-width: 687px;
