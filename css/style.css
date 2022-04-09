@@ -335,11 +335,21 @@ p {
   padding: 20px 0px;
   padding-bottom: 44px;
 }
-.card-content a {
-  font-size: 18px;
+/* .card-content a {
+  font-size: 15px;
   font-weight: 600;
   line-height: 24px;
   color: rgba(39, 137, 93, 1);
+} */
+.card-content button{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(39, 137, 93, 1);
+  text-decoration: underline;
+  cursor: pointer;
 }
 .video img {
   width: 100%;
@@ -460,6 +470,7 @@ p {
   font-weight: 500;
   font-size: 18px;
   color: rgba(63, 63, 63, 1);
+  cursor: pointer;
 }
 .navigation_right ul li .fa-facebook-f,
 .fa-youtube {
@@ -545,7 +556,9 @@ span {
   border-top: 1px solid rgba(227, 227, 234, 1);
   padding: 20px 0px;
 }
-
+.navigation_right a{
+  text-decoration: none;
+}
 /* newsletter css start */
 .news-letter_section {
   width: 100%;
@@ -608,4 +621,28 @@ span {
   letter-spacing: 0.2px;
   color: white;
   padding-bottom: 20px;
+}
+/* modal css */
+.modal{
+  display: none;
+}
+.overlay{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.inner_modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.inner_modal iframe{
+  width: 470px;
+  height: 300px;
+  border: 0;
+  border-radius: 20px;
 }
