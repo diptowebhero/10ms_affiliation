@@ -475,7 +475,7 @@ p {
 .phone , .message, span{
   color: rgba(63, 63, 63, 1);
 }
-.phone , .message, img{
+.phone_icon , .message_icon img{
   margin-right: 16px;
 }
 .search_area{
