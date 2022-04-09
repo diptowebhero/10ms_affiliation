@@ -150,10 +150,19 @@
     padding: 0px 20px;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 380px) {
   .text p {
     font-size: 15px;
   }
+  .card-content .name h4 {
+    font-size: 19px;
+    
+}
+.card-content .name span {
+  
+  font-size: 13px;
+ 
+}
 }
 @media (max-width: 360px) {
   .btn-logIn {

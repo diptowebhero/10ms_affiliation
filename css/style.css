@@ -127,6 +127,12 @@ p {
   justify-content: center;
   border-radius: 50%;
 }
+.sell{
+  background: rgba(244, 140, 6, 1);
+}
+.income{
+  background: rgba(41, 185, 231, 1);
+}
 .icon img {
   object-fit: cover;
 }
@@ -142,6 +148,10 @@ p {
   line-height: 30px;
   font-weight: 500;
   color: rgba(182, 182, 182, 1);
+}
+.program_title{
+  max-width: 834px;
+  margin: 0px auto;
 }
 .program_title h3 {
   font-size: 36px;
@@ -286,8 +296,8 @@ p {
   margin-top: 90px;
 }
 .affiliate_stories_card {
-  width: 370px;
-  height: 330px;
+  max-width: 370px;
+  min-height: 330px;
   background: white;
   box-shadow: 0 5px 20px #e7eaf6b3;
   border-radius: 15px;
@@ -319,13 +329,14 @@ p {
 .card-content p {
   color: rgba(63, 63, 63, 1);
   padding: 20px 0px;
+  padding-bottom: 44px;
 }
 .card-content a {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   color: rgba(39, 137, 93, 1);
-  margin-top: 30px;
+
 }
 .video img {
   width: 100%;
